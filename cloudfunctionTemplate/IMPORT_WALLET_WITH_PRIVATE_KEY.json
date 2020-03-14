@@ -1,0 +1,9 @@
+[
+  {
+    "name": "从私钥导入",
+    "value": {
+      "privateKey": "0xd1201ab3ddfcf0ad5124585a6b9caad7bed98d25ae663f21f172ed27c0f0dfd1",
+      "password": "123456"
+    }
+  }
+]

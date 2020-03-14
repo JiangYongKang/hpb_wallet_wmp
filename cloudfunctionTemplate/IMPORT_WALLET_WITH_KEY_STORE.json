@@ -1,0 +1,9 @@
+[
+    {
+        "name": "IMPORT_WALLET_WITH_KEY_STORE",
+        "value": {
+            "keyStore": "{\"address\":\"a90ba698dc574ee967f4046503a50a1a558577d3\",\"id\":\"bafffd35-7a7d-4fd5-ad20-9b9c17c6958d\",\"version\":3,\"Crypto\":{\"cipher\":\"aes-128-ctr\",\"cipherparams\":{\"iv\":\"1fc4df84754cffcc9480271e62ce1955\"},\"ciphertext\":\"28d18093c15e320ad928b078d994acc6e34423d4af74a423b0c710ef6303b32d\",\"kdf\":\"scrypt\",\"kdfparams\":{\"salt\":\"015c9ec7f302c4f5263d7cae1c094816fa38b570562c06ff6fbfe9bdddc5cafe\",\"n\":131072,\"dklen\":32,\"p\":1,\"r\":8},\"mac\":\"fa7518576c2c7ed4f2ee7c1063bd5666740f6c7a135807e5e1fcd2402ae3fb39\"}}",
+            "password": "1"
+        }
+    }
+]

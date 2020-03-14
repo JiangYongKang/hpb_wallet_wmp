@@ -1,0 +1,9 @@
+[
+  {
+    "name": "IMPORT_WALLET_WITH_MNEMONICS",
+    "value": {
+      "mnemonics": "build gravity rather try negative damage host shift rude ladder club sugar",
+      "password": "123456"
+    }
+  }
+]
