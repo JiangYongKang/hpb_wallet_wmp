@@ -10,6 +10,7 @@ class App extends Component {
             'pages/dummy/index',
 
             'pages/index/index',
+            'pages/index/import_wallet',
             'pages/index/create_wallet',
             'pages/index/create_wallet_success',
             'pages/index/backup_wallet',

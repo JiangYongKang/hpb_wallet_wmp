@@ -78,7 +78,6 @@ export default class Index extends Component {
                     onInput={e => this.onChangeColumn('name', e)}
                     placeholder='给自己的钱包取个名字，如：数字钱包'
                     maxLength={11}
-                    focus
                 />
                 <Input
                     onInput={e => this.onChangeColumn('password', e)}
@@ -109,7 +108,11 @@ export default class Index extends Component {
                         onClick={() => this.createWallet()}>
                         创建钱包
                     </Button>
-                    <Button className='import_btn'>导入钱包</Button>
+                    <Button
+                        className='import_btn'
+                        onClick={() => Taro.navigateTo({ url: '/pages/index/import_wallet' })}>
+                        导入钱包
+                    </Button>
                 </View>
             </View>
         )

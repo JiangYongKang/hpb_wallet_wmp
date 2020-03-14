@@ -21,6 +21,12 @@ export default class Index extends Component {
                 name: 'findNews'
             })
             .then(res => {
+                let news = res.result
+                news.forEach(item => {
+                    if (item.title.length >= 75) {
+                        item.title = `${item.title.substring(0, 75)}...`
+                    }
+                })
                 this.setState({ news: res.result })
             })
     }
