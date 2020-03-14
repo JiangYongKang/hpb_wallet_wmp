@@ -1,0 +1,68 @@
+input {
+    margin: 28px 40px;
+    padding: 30px;
+    font-size: 24px;
+    color: rgba(156, 158, 185, 1);
+    background-color: rgba(156, 158, 185, 0.1);
+    border-radius: 8px;
+}
+
+input::placeholder {
+    font-size: 24px;
+    color: rgba(156, 158, 185, 1);
+}
+
+.action_wrap {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    .terms_wrap {
+        display: flex;
+        align-items: center;
+        padding: 15px 0;
+        .checkbox {
+            width: 36px;
+            height: 36px;
+            border-radius: 4px;
+            background-color: rgba(225, 225, 234, 1);
+        }
+        .checked {
+            background-color: rgba(47, 45, 71, 1);
+        }
+        text {
+            margin-left: 22px;
+            font-size: 26px;
+            color: rgba(156, 158, 185, 1);
+        }
+    }
+
+    .create_btn {
+        margin: 28px 0;
+        padding: 25px 0;
+        border-radius: 8px;
+        font-size: 28px;
+        line-height: 40px;
+        font-weight: 400;
+        color: rgba(46, 47, 71, 1);
+        background-color: rgba(156, 158, 185, 0.3);
+    }
+
+    .create_btn.checked {
+        color: white;
+        background-color: rgba(47, 45, 71, 1);
+    }
+
+    .import_btn {
+        margin: 28px 0;
+        padding: 25px 0;
+        border-radius: 8px;
+        font-size: 28px;
+        line-height: 40px;
+        font-weight: 400;
+        color: rgba(46, 47, 71, 1);
+        background: rgba(156, 158, 185, 1);
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);
+    }
+}
