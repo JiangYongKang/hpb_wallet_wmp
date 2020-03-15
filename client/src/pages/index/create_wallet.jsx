@@ -58,7 +58,7 @@ export default class Index extends Component {
         } else {
             Taro.cloud
                 .callFunction({
-                    name: 'setKeyStore',
+                    name: 'SET_KEY_STORE',
                     data: {
                         name: this.state.name,
                         password: this.state.password

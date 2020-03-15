@@ -20,7 +20,7 @@ export default class BackupWallet extends Component {
     componentDidMount() {
         Taro.cloud
             .callFunction({
-                name: 'findKeyStoreById',
+                name: 'FIND_KEY_STORE_BY_ID',
                 data: { id: this.state.id }
             })
             .then(res => {

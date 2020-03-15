@@ -18,7 +18,7 @@ export default class Index extends Component {
     componentDidMount() {
         Taro.cloud
             .callFunction({
-                name: 'findNews'
+                name: 'FIND_NEWS'
             })
             .then(res => {
                 let news = res.result

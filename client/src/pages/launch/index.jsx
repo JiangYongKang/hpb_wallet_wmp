@@ -18,7 +18,7 @@ export default class Index extends Component {
     componentDidMount() {
         Taro.cloud
             .callFunction({
-                name: 'launchPage'
+                name: 'LAUNCH_PAGE'
             })
             .then(res => {
                 setTimeout(() => {
